@@ -1,0 +1,21 @@
+# Environment file
+.env
+
+# Python cache folder
+__pycache__/
+
+# Example / demo scripts
+demo_simulation.py
+evaluation_metrics.py
+example_evaluation.py
+
+# Documentation
+METRIK_EVALUASI.md
+PANDUAN_INSTALASI.md
+QUICK_START.md
+RENCANA_IMPLEMENTASI.md
+
+# Batch scripts (Windows)
+run_streamlit.bat
+run.bat
+setup.bat

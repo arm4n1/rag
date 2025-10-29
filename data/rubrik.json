@@ -1,0 +1,190 @@
+{
+  "rubric": {
+    "name": "Rubrik Penilaian Algoritma Pemrograman",
+    "course": "Algoritma dan Pemrograman",
+    "description": "Rubrik untuk menilai tugas laporan ALPRO"
+  },
+  "sub_rubrics": [
+    {
+      "sub_rubric": "Dasar Teori",
+      "id": "UUID-SUB1",
+      "rubric_id": "UUID-RUB1",
+      "code": "SR-01",
+      "name": "Dasar Teori",
+      "description": "Mengukur pemahaman teori dasar",
+      "levels": [
+        {
+          "id": "UUID-LV1",
+          "sub_rubric_id": "UUID-SUB1",
+          "label": "A",
+          "description": "Dasar teori dikemukakan dengan jelas dan dapat dimengerti",
+          "score_range": [81, 100]
+        },
+        {
+          "id": "UUID-LV2",
+          "sub_rubric_id": "UUID-SUB1",
+          "label": "B",
+          "description": "Dasar teori dikemukakan dengan kurang jelas dan kurang informatif",
+          "score_range": [61, 80]
+        },
+        {
+          "id": "UUID-LV3",
+          "sub_rubric_id": "UUID-SUB1",
+          "label": "C",
+          "description": "Dasar teori dikemukakan dengan tidak jelas",
+          "score_range": [0, 60]
+        }
+      ]
+    },
+    {
+      "id": "UUID-SUB2",
+      "rubric_id": "UUID-RUB1",
+      "code": "SR-02",
+      "name": "Kode Program",
+      "description": "Mengukur efisiensi program dan penamaan variabel",
+      "levels": [
+        {
+          "id": "UUID-LV4",
+          "sub_rubric_id": "UUID-SUB2",
+          "label": "A",
+          "description": "Program efisien, penamaan variabel informatif",
+          "score_range": [81, 100]
+        },
+        {
+          "id": "UUID-LV5",
+          "sub_rubric_id": "UUID-SUB2",
+          "label": "B",
+          "description": "Program kurang efisien, penamaan variabel kurang informatif",
+          "score_range": [61, 80]
+        },
+        {
+          "id": "UUID-LV6",
+          "sub_rubric_id": "UUID-SUB2",
+          "label": "C",
+          "description": "Program tidak efisien, penamaan variabel tidak informatif",
+          "score_range": [0, 60]
+        }
+      ]
+    },
+    {
+      "id": "UUID-SUB3",
+      "rubric_id": "UUID-RUB1",
+      "code": "SR-03",
+      "name": "Keterangan Baris Program",
+      "description": "Mengukur kejelasan penjelasan baris code",
+      "levels": [
+        {
+          "id": "UUID-LV7",
+          "sub_rubric_id": "UUID-SUB3",
+          "label": "A",
+          "description": "Setiap baris code diberikan penjelasan",
+          "score_range": [81, 100]
+        },
+        {
+          "id": "UUID-LV8",
+          "sub_rubric_id": "UUID-SUB3",
+          "label": "B",
+          "description": "Baris code kurang informatif penjelasannya",
+          "score_range": [61, 80]
+        },
+        {
+          "id": "UUID-LV9",
+          "sub_rubric_id": "UUID-SUB3",
+          "label": "C",
+          "description": "Baris code tidak diberikan penjelasan atau tidak informatif",
+          "score_range": [0, 60]
+        }
+      ]
+    },
+    {
+      "id": "UUID-SUB4",
+      "rubric_id": "UUID-RUB1",
+      "code": "SR-04",
+      "name": "Kesimpulan",
+      "description": "Mengukur kejelasan kesimpulan dari materi atau program",
+      "levels": [
+        {
+          "id": "UUID-LV10",
+          "sub_rubric_id": "UUID-SUB4",
+          "label": "A",
+          "description": "Dapat menyimpulkan materi ataupun program yang telah dibuat",
+          "score_range": [81, 100]
+        },
+        {
+          "id": "UUID-LV11",
+          "sub_rubric_id": "UUID-SUB4",
+          "label": "B",
+          "description": "Kesimpulan kurang jelas",
+          "score_range": [61, 80]
+        },
+        {
+          "id": "UUID-LV12",
+          "sub_rubric_id": "UUID-SUB4",
+          "label": "C",
+          "description": "Kesimpulan tidak dapat dipahami",
+          "score_range": [0, 60]
+        }
+      ]
+    }
+  ],
+  "assignment_sub_rubrics": [
+    {
+      "id": "UUID-ASR1",
+      "assignment_id": "UUID-A1",
+      "sub_rubric_id": "UUID-SUB1",
+      "weight": 10
+    },
+    {
+      "id": "UUID-ASR2",
+      "assignment_id": "UUID-A1",
+      "sub_rubric_id": "UUID-SUB2",
+      "weight": 50
+    },
+    {
+      "id": "UUID-ASR3",
+      "assignment_id": "UUID-A1",
+      "sub_rubric_id": "UUID-SUB3",
+      "weight": 20
+    },
+    {
+      "id": "UUID-ASR4",
+      "assignment_id": "UUID-A1",
+      "sub_rubric_id": "UUID-SUB4",
+      "weight": 20
+    }
+  ],
+  "assignment_submission_scores": [
+    {
+      "id": "UUID-SC1",
+      "submission_id": "UUID-S1",
+      "sub_rubric_id": "UUID-SUB1",
+      "selected_level": "A",
+      "score_awarded": 95,
+      "comment": "Dasar teori dijelaskan sangat baik"
+    },
+    {
+      "id": "UUID-SC2",
+      "submission_id": "UUID-S1",
+      "sub_rubric_id": "UUID-SUB2",
+      "selected_level": "B",
+      "score_awarded": 75,
+      "comment": "Program berjalan tapi kurang efisien"
+    },
+    {
+      "id": "UUID-SC3",
+      "submission_id": "UUID-S1",
+      "sub_rubric_id": "UUID-SUB3",
+      "selected_level": "A",
+      "score_awarded": 90,
+      "comment": "Semua baris code diberikan penjelasan"
+    },
+    {
+      "id": "UUID-SC4",
+      "submission_id": "UUID-S1",
+      "sub_rubric_id": "UUID-SUB4",
+      "selected_level": "B",
+      "score_awarded": 70,
+      "comment": "Kesimpulan kurang jelas tapi masih bisa dipahami"
+    }
+  ]
+}

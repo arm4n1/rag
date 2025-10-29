@@ -1,61 +1,65 @@
-# ============================================
-# 🔒 ENVIRONMENT & CONFIG
-# ============================================
+# Environment Variables (SENSITIVE - DO NOT COMMIT)
 .env
-*.env
 .env.*
+*.env
 
-# ============================================
-# 🐍 PYTHON BUILD / CACHE / COMPILED FILES
-# ============================================
+# Python Cache & Compiled Files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
+*.py[cod]
+*$py.class
+*.so
 *.egg
+*.egg-info/
+dist/
+build/
 *.log
 
-# ============================================
-# 🧪 EXAMPLE / DEMO SCRIPTS (yang ingin diabaikan)
-# ============================================
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Output & Generated Files
+output/
+*.xlsx
+*.csv
+
+# Temporary Files
+temp_uploads/
+tmp/
+cache/
+*.tmp
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+
 demo_simulation.py
 evaluation_metrics.py
 example_evaluation.py
 
-# ============================================
-# 📄 DOCUMENTATION (yang tidak ingin di-push)
-# ============================================
 METRIK_EVALUASI.md
 PANDUAN_INSTALASI.md
 QUICK_START.md
 RENCANA_IMPLEMENTASI.md
 
-# Jika ingin abaikan semua Markdown, bisa pakai:
-# *.md
-# Tapi kalau mau keep README.md, gunakan:
-# *.md
-# !README.md
 
-# ============================================
-# ⚙️ BATCH SCRIPTS (Windows)
-# ============================================
 run_streamlit.bat
 run.bat
 setup.bat
-
-# ============================================
-# 🧰 IDE / OS FILES
-# ============================================
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# ============================================
-# 🧱 TEMP / OUTPUT FOLDER (opsional)
-# ============================================
-tmp/
-cache/
-dist/
-build/

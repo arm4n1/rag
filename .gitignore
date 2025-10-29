@@ -1,21 +1,61 @@
-# Environment file
+# ============================================
+# 🔒 ENVIRONMENT & CONFIG
+# ============================================
 .env
+*.env
+.env.*
 
-# Python cache folder
+# ============================================
+# 🐍 PYTHON BUILD / CACHE / COMPILED FILES
+# ============================================
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
 
-# Example / demo scripts
+# ============================================
+# 🧪 EXAMPLE / DEMO SCRIPTS (yang ingin diabaikan)
+# ============================================
 demo_simulation.py
 evaluation_metrics.py
 example_evaluation.py
 
-# Documentation
+# ============================================
+# 📄 DOCUMENTATION (yang tidak ingin di-push)
+# ============================================
 METRIK_EVALUASI.md
 PANDUAN_INSTALASI.md
 QUICK_START.md
 RENCANA_IMPLEMENTASI.md
 
-# Batch scripts (Windows)
+# Jika ingin abaikan semua Markdown, bisa pakai:
+# *.md
+# Tapi kalau mau keep README.md, gunakan:
+# *.md
+# !README.md
+
+# ============================================
+# ⚙️ BATCH SCRIPTS (Windows)
+# ============================================
 run_streamlit.bat
 run.bat
 setup.bat
+
+# ============================================
+# 🧰 IDE / OS FILES
+# ============================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================================
+# 🧱 TEMP / OUTPUT FOLDER (opsional)
+# ============================================
+tmp/
+cache/
+dist/
+build/
